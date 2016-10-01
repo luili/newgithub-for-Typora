@@ -4,113 +4,112 @@
  * update：2016-10-1 11:25
  **/
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 200;
     font-style: normal;
     font-stretch: normal;
     src:url('./newgithub/SourceCodePro-ExtraLight.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 200;
     font-style: italic;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-ExtraLightIt.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-Light.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 300;
     font-style: italic;
     font-stretch: normal;
     src:url('./newgithub/SourceCodePro-LightIt.otf') format('opentype');
-
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     src:url('./newgithub/SourceCodePro-Regular.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 400;
     font-style: italic;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-It.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-Medium.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 500;
     font-style: italic;
     font-stretch: normal;
     src:url('./newgithub/SourceCodePro-MediumIt.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
     src:  url('./newgithub/SourceCodePro-Semibold.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 600;
     font-style: italic;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-SemiboldIt.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     src:url('./newgithub/SourceCodePro-Bold.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 700;
     font-style: italic;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-BoldIt.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     src: url('./newgithub/SourceCodePro-Black.otf') format('opentype');
 }
 
-@font-face{
-    font-family: 'Source Code Pro';
+@font-face {
+	font-family: 'Source Code Pro';
     font-weight: 900;
     font-style: italic;
     font-stretch: normal;
@@ -120,11 +119,11 @@
 /*  global style  */
 
 html {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 body {
-    font-family: ”Helvetica Neue","Hiragino Sans GB","STHeiti",sans-serif;
+	font-family: ”Helvetica Neue","Hiragino Sans GB","STHeiti",sans-serif;
     color: #2c3f51;
     line-height: 1.6;
 }
@@ -148,7 +147,7 @@ body > *:last-child {
     margin-bottom: 0 !important;
 }
 a {
-    color: #4183C4;
+    color: #1980e6;
 }
 h1,
 h2,
@@ -294,9 +293,9 @@ ol:last-child {
     margin-bottom: 0;
 }
 blockquote {
-    border-left: 4px solid #dddddd;
-    padding: 0 15px;
-    color: #777777;
+    border-left: 5px solid rgba(102,128,153,0.075);
+    padding: 10px 15px;
+    background-color :rgba(102,128,153,0.05);
 }
 blockquote blockquote {
     padding-right: 0;
@@ -337,11 +336,11 @@ table tr td:last-child {
 
 /*  Base style for Code  */
 .cm-s-inner {
-  background-color: #263238;
+  background-color: #23241f;
   color: rgba(233, 237, 237, 1);
 }
 .cm-s-inner .CodeMirror-gutters {
-  background: #263238;
+  background: #23241f;
   color: rgb(83,127,126);
   border: none;
 }
@@ -382,8 +381,8 @@ table tr td:last-child {
 }
 
 .md-fences {
-  background-color: #263238;
-  color: rgba(233, 237, 237, 1);
+  background-color: #23241f;
+  color: #2c3f51;
   border: none;
   border-radius: 3px;
   margin-bottom: 15px;
@@ -391,12 +390,13 @@ table tr td:last-child {
   padding: 0.2em 1em;
   padding-top: 8px;
   padding-bottom: 6px;
-  font-size: 0.9em;
-  font-family: 'Source Code Pro', monospace;;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .md-fences .code-tooltip {
-  background-color: #263238;
+  background-color: #23241f;
+  color: rgba(233, 237, 237, 1);
 }
 
 tt {
@@ -451,7 +451,7 @@ code {
 }
 
 .md-fences {
-background-color: #263238;
+background-color: #23241f;
 }
 #write pre.md-meta-block {
     padding: 1rem;
